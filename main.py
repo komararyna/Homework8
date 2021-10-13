@@ -1,0 +1,5 @@
+st = str(input('insert your phrase:'))
+st_2 = str(input('insert your phrase:'))
+wordset = set(st)
+wordset_2 = set(st_2)
+print(wordset.intersection(wordset_2))
